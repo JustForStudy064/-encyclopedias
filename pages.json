@@ -3,14 +3,80 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "华工小百科"
+			}
+		},
+		{
+			"path" : "pages/topic/topic",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/readlog/readlog",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/course/course",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
 			}
 		}
-	],
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#005B8B",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+			{
+	        "pagePath": "pages/index/index",
+					"iconPath": "static/tabbar/tab-search.png",
+					"selectedIconPath": "static/tabbar/tab-search-on.png",
+	        "text": "主页"
+	    }, 
+			{
+	        "pagePath": "pages/topic/topic",
+	        "iconPath": "static/tabbar/tab-topic.png",
+	        "selectedIconPath": "static/tabbar/tab-topic-on.png",
+	        "text": "专题"
+	    },
+			{
+			    "pagePath": "pages/course/course",
+			    "iconPath": "static/tabbar/tab-course.png",
+			    "selectedIconPath": "static/tabbar/tab-course-on.png",
+			    "text": "通选课"
+			},
+			{
+			    "pagePath": "pages/readlog/readlog",
+			    "iconPath": "static/tabbar/tab-person.png",
+			    "selectedIconPath": "static/tabbar/tab-person-on.png",
+			    "text": "我的"
+			}
+		]
 	}
 }
