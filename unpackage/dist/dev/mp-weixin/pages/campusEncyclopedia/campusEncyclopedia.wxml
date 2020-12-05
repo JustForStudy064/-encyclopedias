@@ -1,0 +1,1 @@
+<block wx:for="{{gradeList}}" wx:for-item="item1" wx:for-index="__i0__"><view class="container"><view class="title">{{''+item1.title+''}}</view><block wx:for="{{item1.gradeItem}}" wx:for-item="item2" wx:for-index="__i1__"><navigator class="item"><image src="{{item2.icon}}" mode="widthFix"></image><text class="text-name">{{item2.name}}</text></navigator></block></view></block>

@@ -30,6 +30,15 @@
 					"enablePullDownRefresh": false
 			}
 		}
+        ,{
+            "path" : "pages/campusEncyclopedia/campusEncyclopedia",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
