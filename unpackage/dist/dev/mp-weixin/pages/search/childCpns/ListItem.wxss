@@ -1,0 +1,36 @@
+
+.list-item.data-v-2a0d78d0{
+	height: 104rpx;
+	margin: 30rpx 30rpx 0rpx 54rpx;
+	border-bottom: 2rpx solid #eee;
+	position: relative;
+}
+.outer_box.data-v-2a0d78d0{
+	border: 2rpx solid #000;
+}
+.item_title.data-v-2a0d78d0{
+	color: #000000;
+	font-size: 40rpx;
+	margin-bottom: 6rpx;
+	width: 90%;
+	overflow: hidden;
+	/* 溢出的文字用...表示 */
+	text-overflow: ellipsis;
+	/* 规定段落中的文字不能换行 */
+	white-space: nowrap;
+}
+.item_text.data-v-2a0d78d0{
+	color:#54B1FF;
+	font-size: 26rpx;
+}
+.classify_item.data-v-2a0d78d0{
+	display: inline-block;
+}
+.right_array.data-v-2a0d78d0{
+	color: #54B1FF;
+	font-size: 36rpx;
+	position: absolute;
+	top: 5rpx;
+	right: 56rpx;
+}
+

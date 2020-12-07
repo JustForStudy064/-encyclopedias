@@ -1,0 +1,28 @@
+
+.bottom-info{
+	padding: 30rpx 58rpx 0 56rpx;
+	height: 184rpx;
+	position: relative;
+}
+.info_title{
+	font-size: 34rpx;
+	padding-bottom: 20rpx;
+	color: #404040;
+}
+.info_text{
+	color: #404040;
+	font-size: 26rpx;
+}
+.bottom_btn{
+	position: absolute;
+	padding: 16rpx 24rpx 14rpx;
+	background: #F7E598;
+	-webkit-border-radius: 28rpx;
+	        border-radius: 28rpx;
+	width: 104rpx;
+	font-size: 26rpx;
+	color: #000;
+	bottom: 0;
+	right: 58rpx;
+}
+

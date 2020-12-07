@@ -1,0 +1,12 @@
+
+.no_result_image.data-v-5501f286{
+	width: 422rpx;
+	height: 240rpx;
+	margin: 78rpx 164rpx 34rpx;
+}
+.no_result_text.data-v-5501f286{
+	color: #000;
+	font-size: 26rpx;
+	margin-left: 102rpx;
+}
+

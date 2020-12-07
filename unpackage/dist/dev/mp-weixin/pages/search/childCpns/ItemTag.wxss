@@ -1,0 +1,11 @@
+
+.item-tag.data-v-7888d7d8{
+	background: #E2F1FD;
+	padding: 6rpx 24rpx 8rpx;
+	-webkit-border-radius: 18rpx;
+	        border-radius: 18rpx;
+	color: rgba(0,0,0,1);
+	font-size: 22rpx;
+	margin-left: 22rpx;
+}
+

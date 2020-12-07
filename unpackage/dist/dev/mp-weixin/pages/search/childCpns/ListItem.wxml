@@ -1,0 +1,1 @@
+<view class="list-item data-v-2a0d78d0"><view class="item_title data-v-2a0d78d0">{{''+itemDesc.title+''}}</view><view class="right_array data-v-2a0d78d0">></view><view class="item_text data-v-2a0d78d0">{{''+classify_text+''}}</view></view>
