@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 	<view class="container" v-for="item1 in gradeList">
 		<view class="title">
 			{{item1.title}}
@@ -109,3 +109,4 @@
 		width: 40rpx;
 	}
 </style>
+ -->
