@@ -1,1 +1,1 @@
-<view></view>
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view><view class="text-area"><button style="width:100%;" form-type="submit">提交信息</button></view></view>
