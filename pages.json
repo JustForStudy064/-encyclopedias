@@ -1,30 +1,13 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-				"path" : "pages/search/search",
-				"style" :                                                                                    
-				{
-						"navigationBarTitleText": "百科搜索",
-						"enablePullDownRefresh": false
-				}
-				
-		},
-		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "华工小百科"
+				"navigationBarTitleText": "灯神小百科"
 			}
 		},
 		{
-			"path" : "pages/topic/topic",
-			"style" :                                                                                    
-			{
-					"navigationBarTitleText": "",
-					"enablePullDownRefresh": false
-			}
-		},
-		{
-			"path" : "pages/readlog/readlog",
+			"path" : "pages/courseDetails/courseDetails",
 			"style" :                                                                                    
 			{
 					"navigationBarTitleText": "",
@@ -38,7 +21,63 @@
 					"navigationBarTitleText": "",
 					"enablePullDownRefresh": false
 			}
-		}
+		},
+		{
+			"path" : "pages/readlog/readlog",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "个人中心",
+					"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/topic/topic",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "校园百科",
+					"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "百科搜索",
+					"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/topicDetail/topicDetail",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "话题详情",
+					"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/addComment/addComment",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/addCourse/addCourse",
+			"style" :                                                                                    
+			{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+			}
+		}    ,{
+            "path" : "pages/summitRes/summitRes",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

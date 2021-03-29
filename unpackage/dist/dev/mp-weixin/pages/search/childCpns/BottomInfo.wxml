@@ -1,1 +1,0 @@
-<view class="bottom-info"><view class="info_title">没有找到想要的结果？</view><view class="info_text">{{''+info_text_desc+''}}</view><view class="bottom_btn">召唤灯神</view></view>

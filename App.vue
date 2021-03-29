@@ -14,4 +14,7 @@
 
 <style>
 	/*每个页面公共css */
+	.html{
+		font-family: Source Han Sans CN;
+	}
 </style>

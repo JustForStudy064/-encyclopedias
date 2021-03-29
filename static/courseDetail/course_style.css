@@ -1,0 +1,191 @@
+/*courseDetails.vue*/
+.briefIntro{
+white-space: pre-wrap;
+  height: 57px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.introCourseTitle{
+	  margin-left: 16px;
+	  padding-left: 11px;
+	  padding-bottom: 5px;
+	  font-weight: 400;
+	  font-family: Source Han Sans CN;
+	  font-size: 26px;
+	  letter-spacing: 2px;
+	  float: left;
+	  display: inline-block;
+	  border-left: 4px solid;
+}
+.courseTitle{
+	 margin-left: 34px;
+	 padding-left: 11px;
+	 padding-bottom: 5px;
+	 font-weight: 400;
+	 font-family: Source Han Sans CN;
+	 font-size: 26px;
+	 letter-spacing: 2px;
+	 float: left;
+	 display: inline-block;
+	 border-left: 4px solid;
+}
+.introCourseDetail{
+  font-size: 13px;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  line-height: 23px;
+  opacity: 1;
+  margin-left: 14px;
+  float: left;
+}
+.icon{
+	width: 24px;
+	height: 24px;
+}
+.funcButton{
+	font-size: 11px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 19px;
+	margin-left: 12px;
+	color: #BFBFBF;
+	opacity: 1;
+}
+.courseComment{
+  margin-left: 15px;
+  margin-right: 16px;
+}
+.commentContent{
+font-size: 17px;
+font-family: Source Han Sans CN;
+font-weight: 300;
+line-height: 29px;
+color: #54B1FF;
+opacity: 1;
+}
+.contentDetail{
+  font-size: 13px;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  line-height: 23px;
+  color: #888888;
+  opacity: 1;
+  margin-top: 10;
+}
+.commentDateAndLike{
+font-size: 11px;
+font-family: Source Han Sans CN;
+font-weight: 400;
+line-height: 19px;
+color: #7F7F7F;
+opacity: 1;
+margin-top: 8px;
+padding-bottom: 7px;
+border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+/**/
+
+.button, .leftButton, .rightButton, .inputBlock,.typeButton, .type1Button, .type2Button, .active, .active_renwen, .active_shehui, .submitButton{
+    border: 1px solid #9FCFF8;
+    border-radius: 16px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    height: 32px;
+    font-size: 18px;
+    font-family: Segoe UI;
+    font-weight: 400;
+    margin-top: 13px;
+    margin-bottom: 16px;
+    opacity: 1;
+	margin-left: 5%;
+}
+.typeButton, .type1Button, .type2Button{
+	width: 25%;
+	height: 32px;
+	font-size: 14px;
+	font-family: Source Han Sans CN;
+	font-weight: 300;
+	line-height: 32px;
+
+}
+.leftButton{
+	float: left;
+	width: 40%;
+}
+.rightButton{
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+}
+.type1Button{
+	float: left;
+}
+.type2Button{
+	margin-left: 5%;
+	float: left;
+}
+
+.active{
+	background-color: #9FCFF8;
+}
+.active_renwen{
+	background-color: #FFD110;
+ }
+.active_shehui{
+	background-color: #FB8D57;
+ }
+.submitButton{
+	margin-left: 5%;
+	width: 90%;
+    background-color:  #9FCFF8;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 1;   
+}
+.inputBlock{
+	margin-left: 1%;
+	width: 98%;
+	text-align: left;
+	padding-left: 12px;
+	font-size: 14px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 24px;
+	color: #939393;
+	opacity: 1;
+}
+
+/*addCourse.vue*/
+.addCourse{
+	margin-left: 7%;
+	width: 86%;
+	font-family: "Source Han Sans CN";
+	font-size: 20pt;
+}
+.detailTitle{/*更名前：title*/
+	clear:both;
+	height: 32px;
+	line-height: 34px;
+	font-size: 20px;
+	font-family: Source Han Sans CN;
+	font-weight: 400;  
+	color: #000000;
+	opacity: 1;
+}
+
+/*comment.vue*/
+.toComment{
+	margin-left: 7%;
+	width: 86%;
+	font-family: "Source Han Sans CN";
+	font-size: 20pt;
+}
